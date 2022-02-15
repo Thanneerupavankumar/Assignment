@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Calc.jsp" method="get">
+<input type="text" name="nnumber">
+<input type="submit" value="save">
+</form>
+<% 
+
+    String number=request.getParameter("nnumber");
+    int s=1;
+if(txtNum!=null){
+int num=Integer.parseInt("number");
+for(int i=1;i<=10;i++)
+s=num*i;
+out.println(s);
+}
+%>
+</body>
+</html>
